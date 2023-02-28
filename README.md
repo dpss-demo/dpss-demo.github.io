@@ -6,7 +6,7 @@ This is the demonstration page of the paper "Distribution Preserving Source Sepa
 
 ### Abstract
 
-We provide an example of a distribution preserving source separation method, which aims at addressing perceptual shortcomings of state-of-the-art methods. The approach uses unconditioned generative models of signal sources, and reconstruction is achieved by means of mix-consistent sampling from a distribution conditioned on a realization of a mix. The reconstructed components follow their respective source distributions, which provides an advantage when separation results are evaluated in a listening test.
+We provide an example of a distribution preserving source separation method, which aims at addressing perceptual shortcomings of state-of-the-art methods. Our approach uses unconditioned generative models of signal sources. Reconstruction is achieved by means of mix-consistent sampling from a distribution conditioned on a realization of a mix. The separated signals follow their respective source distributions, which provides an advantage when separation results are evaluated in a listening test.
 
 ### Reference
 

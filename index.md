@@ -6,7 +6,7 @@ This is the demonstration page of the paper "Distribution Preserving Source Sepa
 
 ### Abstract
 
-We provide an example of a distribution preserving source separation method, which aims at addressing perceptual shortcomings of state-of-the-art methods. The approach uses unconditioned generative models of signal sources, and reconstruction is achieved by means of mix-consistent sampling from a distribution conditioned on a realization of a mix. The reconstructed components follow their respective source distributions, which provides an advantage when separation results are evaluated in a listening test.
+We provide an example of a distribution preserving source separation method, which aims at addressing perceptual shortcomings of state-of-the-art methods. Our approach uses unconditioned generative models of signal sources. Reconstruction is achieved by means of mix-consistent sampling from a distribution conditioned on a realization of a mix. The separated signals follow their respective source distributions, which provides an advantage when separation results are evaluated in a listening test.
 
 ### Reference
 
@@ -19,10 +19,17 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
 <table>
 
   <tr>
-    <td>Mixture</td><td>Sources</td><td>Low-pass anchor 3.5kHz</td><td>DPSS</td><td>IRM</td><td>PNF</td>
+    <td>Item</td>
+    <td>Mixture</td>
+    <td>Sources</td>
+    <td>DPSS</td>
+    <td>IRM</td>
+    <td>PNF</td>
+    <td>Low-pass anchor 3.5kHz</td>
   </tr>
 
   <tr>
+  <td>1</td>
   <td>
     <p>
       <audio controls>
@@ -39,18 +46,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p237_298_mic2res0_yx139bt6626Lres26_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p237_298_mic2res0_yx139bt6626Lres26_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p237_298_mic2res0_yx139bt6626Lres26_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -90,9 +85,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p237_298_mic2res0_yx139bt6626Lres26_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p237_298_mic2res0_yx139bt6626Lres26_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>2</td>
   <td>
     <p>
       <audio controls>
@@ -109,18 +117,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p237_326_mic2res0_zp866tm4852Lres25_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p237_326_mic2res0_zp866tm4852Lres25_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p237_326_mic2res0_zp866tm4852Lres25_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -160,9 +156,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p237_326_mic2res0_zp866tm4852Lres25_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p237_326_mic2res0_zp866tm4852Lres25_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>3</td>
   <td>
     <p>
       <audio controls>
@@ -179,18 +188,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p269_367_mic2res0_zw828tx0197Lres15_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p269_367_mic2res0_zw828tx0197Lres15_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p269_367_mic2res0_zw828tx0197Lres15_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -230,9 +227,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p269_367_mic2res0_zw828tx0197Lres15_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p269_367_mic2res0_zw828tx0197Lres15_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>4</td>
   <td>
     <p>
       <audio controls>
@@ -249,18 +259,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p269_371_mic1res0_yt974cv2625Lres79_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p269_371_mic1res0_yt974cv2625Lres79_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p269_371_mic1res0_yt974cv2625Lres79_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -300,9 +298,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p269_371_mic1res0_yt974cv2625Lres79_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p269_371_mic1res0_yt974cv2625Lres79_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>5</td>
   <td>
     <p>
       <audio controls>
@@ -319,18 +330,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p303_329_mic1res0_zt739gs4926Lres89_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p303_329_mic1res0_zt739gs4926Lres89_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p303_329_mic1res0_zt739gs4926Lres89_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -370,9 +369,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p303_329_mic1res0_zt739gs4926Lres89_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p303_329_mic1res0_zt739gs4926Lres89_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>6</td>
   <td>
     <p>
       <audio controls>
@@ -389,18 +401,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p303_331_mic1res0_zc118hn1152Lres18_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p303_331_mic1res0_zc118hn1152Lres18_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p303_331_mic1res0_zc118hn1152Lres18_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -440,9 +440,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p303_331_mic1res0_zc118hn1152Lres18_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p303_331_mic1res0_zc118hn1152Lres18_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>7</td>
   <td>
     <p>
       <audio controls>
@@ -459,18 +472,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p303_341_mic1res0_ys250pr2232Lres6_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p303_341_mic1res0_ys250pr2232Lres6_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p303_341_mic1res0_ys250pr2232Lres6_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -510,9 +511,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p303_341_mic1res0_ys250pr2232Lres6_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p303_341_mic1res0_ys250pr2232Lres6_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>8</td>
   <td>
     <p>
       <audio controls>
@@ -529,18 +543,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p306_264_mic1res0_zt739gs4926Lres50_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p306_264_mic1res0_zt739gs4926Lres50_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p306_264_mic1res0_zt739gs4926Lres50_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -580,9 +582,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p306_264_mic1res0_zt739gs4926Lres50_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p306_264_mic1res0_zt739gs4926Lres50_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>9</td>
   <td>
     <p>
       <audio controls>
@@ -599,18 +614,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p306_277_mic2res0_zk440mh1715Lres4_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p306_277_mic2res0_zk440mh1715Lres4_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p306_277_mic2res0_zk440mh1715Lres4_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -650,9 +653,22 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
       <audio>
     </p>
     </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p306_277_mic2res0_zk440mh1715Lres4_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p306_277_mic2res0_zk440mh1715Lres4_piano_lp35.wav">
+      <audio>
+    </p>
+    </td>
   </tr>
 
   <tr>
+  <td>10</td>
   <td>
     <p>
       <audio controls>
@@ -669,18 +685,6 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p306_331_mic2res0_yt974cv2625Lres29_piano.wav">
-      <audio>
-    </p>
-    </td>
-  <td>
-    <p>
-      <audio controls>
-        <source src="./speech/p306_331_mic2res0_yt974cv2625Lres29_speech_lp35.wav">
-      <audio>
-    </p>
-    <p>
-      <audio controls>
-        <source src="./piano/p306_331_mic2res0_yt974cv2625Lres29_piano_lp35.wav">
       <audio>
     </p>
     </td>
@@ -717,6 +721,18 @@ Pedro J. Villasana T., Janusz Klejsa, Lars Villemoes, Per Hedelin  (2023). **Dis
     <p>
       <audio controls>
         <source src="./piano/p306_331_mic2res0_yt974cv2625Lres29_piano_pnf.wav">
+      <audio>
+    </p>
+    </td>
+  <td>
+    <p>
+      <audio controls>
+        <source src="./speech/p306_331_mic2res0_yt974cv2625Lres29_speech_lp35.wav">
+      <audio>
+    </p>
+    <p>
+      <audio controls>
+        <source src="./piano/p306_331_mic2res0_yt974cv2625Lres29_piano_lp35.wav">
       <audio>
     </p>
     </td>
